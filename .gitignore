@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Stuff to not put to git
+.idea
+.idea/
+*.csv
+Titanic.py
