@@ -137,11 +137,17 @@ def stats(clf, X, y):
 
     print_stats("Positive Predictions 10%", X_postitive, y_positive, y_positive_pred)
 
+    # print(X.head(5))
 
 
 
 
 X_train, y_train, X_test, y_test = create_train_test()
 clf = train(X_train, y_train)
+print("*************Training Set*****************")
 stats(clf, X_train, y_train)
+print("")
+print("")
+print("")
+print("*************Test Set*****************")
 stats(clf, X_test, y_test)
